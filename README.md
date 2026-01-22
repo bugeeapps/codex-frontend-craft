@@ -1,22 +1,22 @@
 # Codex Frontend Craft
 
 ## Resumo (pt-BR)
-Super skill de design system para front-end no GPT-5 Codex. Criei este projeto para orientar a criacao de interfaces com direcao visual clara, tipografia expressiva, layout intencional e execucao de alto nivel.
+Super skill de design system para front-end no GPT-5 Codex. Criei este projeto para orientar a criação de interfaces com direção visual clara, tipografia expressiva, layout intencional e execução de alto nível.
 
-## Descricao
-Projeto que define regras, criterios e fluxo de trabalho para gerar UI/UX de qualidade, evitando resultados genericos.
+## Descrição
+Projeto que define regras, critérios e fluxo de trabalho para gerar UI/UX de qualidade, evitando resultados genéricos.
 
 ## O que inclui
 - `skill.yaml` com metadados da skill
 - `system.md` com o guia principal de design
 
-## Instalacao passo a passo (pt-BR)
-1. Baixe o projeto (zip) ou clone o repositorio.
-2. Localize a pasta de skills do Codex (`$CODEX_HOME/skills`). Padrao:
+## Instalação passo a passo (pt-BR)
+1. Baixe o projeto (zip) ou clone o repositório.
+2. Localize a pasta de skills do Codex (`$CODEX_HOME/skills`). Padrão:
    - Windows: `%USERPROFILE%\\.codex\\skills`
    - macOS/Linux: `~/.codex/skills`
 3. Copie a pasta do projeto para `.../skills/codex-frontend-craft`.
-4. Verifique se `skill.yaml` e `system.md` estao dentro dessa pasta.
+4. Verifique se `skill.yaml` e `system.md` estão dentro dessa pasta.
 
 Exemplos:
 ```bash
@@ -53,7 +53,7 @@ git clone https://github.com/bugeeapps/codex-frontend-craft.git (Join-Path $skil
 ## Uso no Codex CLI (pt-BR)
 1. Abra o Codex CLI.
 2. Ative a skill pelo nome `codex-frontend-craft` (ex.: no prompt "Use a skill codex-frontend-craft para ...").
-3. Descreva o que voce precisa (tipo de tela, publico, stack, restricoes).
+3. Descreva o que você precisa (tipo de tela, público, stack, restrições).
 
 ## Using in Codex CLI (EN)
 1. Open Codex CLI.
@@ -61,9 +61,9 @@ git clone https://github.com/bugeeapps/codex-frontend-craft.git (Join-Path $skil
 3. Describe your UI requirements (page type, audience, stack, constraints).
 
 ## Exemplos de prompts (pt-BR)
-- "Use a skill codex-frontend-craft para criar uma landing page de cafe com estilo editorial e tipografia expressiva."
-- "Crie um dashboard de vendas com layout assimetrico e micro-interacoes, mantendo o HTML simples."
-- "Melhore o visual de um formulario SaaS sem alterar a logica, priorizando Tailwind."
+- "Use a skill codex-frontend-craft para criar uma landing page de café com estilo editorial e tipografia expressiva."
+- "Crie um dashboard de vendas com layout assimétrico e micro-interações, mantendo o HTML simples."
+- "Melhore o visual de um formulário SaaS sem alterar a lógica, priorizando Tailwind."
 
 Exemplo completo de invocação:
 ```text
@@ -90,14 +90,14 @@ Eliminar aparência genérica.
 - "Improve the UI hierarchy of a React admin screen without changing business logic."
 
 ## Links
-- Repositorio: https://github.com/bugeeapps/codex-frontend-craft
-- Versao v2 (com comandos e anti-padroes): https://github.com/bugeeapps/codex-frontend-craft-v2
+- Repositório: https://github.com/bugeeapps/codex-frontend-craft
+- Versão v2 (com comandos e anti-padrões): https://github.com/bugeeapps/codex-frontend-craft-v2
 
-## Parametros da skill (pt-BR)
+## Parâmetros da skill (pt-BR)
 - name: `codex-frontend-craft` (nome da skill no Codex CLI)
 - description: "Production-grade frontend with extreme design intentionality." (resumo do foco)
 - scope: `frontend`, `react`, `tailwind` (contextos onde aplica)
-- poder de fogo: pipeline tecnico de direcao visual + heuristicas de design system (escala tipografica, hierarquia, grid, espacamento, tokens semanticos, paleta, estados, acessibilidade, motion e responsividade) com foco em UI de producao
+- poder de fogo: pipeline técnico de direção visual + heurísticas de design system (escala tipográfica, hierarquia, grid, espaçamento, tokens semânticos, paleta, estados, acessibilidade, motion e responsividade) com foco em UI de produção
 
 ## Skill parameters (EN)
 - name: `codex-frontend-craft` (skill name in Codex CLI)
