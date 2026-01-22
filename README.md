@@ -84,6 +84,34 @@ Refinar visual, tipografia, espaçamento e hierarquia.
 Eliminar aparência genérica.
 ```
 
+3️⃣ Prompt CURTO para "deixar a página bonita" (copiar/colar)
+
+Esse é o atalho mental
+
+```text
+codex "
+Use codex-frontend-craft.
+Modo: craft:build.
+
+Deixe esta página bonita.
+Sem alterar lógica.
+Sem layout genérico.
+"
+```
+
+Simples. Brutal. Funciona.
+
+4️⃣ Quer auditar antes de mudar?
+```text
+codex "
+Use codex-frontend-craft.
+Modo: craft:audit.
+
+Analise esta página React/Tailwind
+e aponte todos os padrões genéricos.
+"
+```
+
 ## Example prompts (EN)
 - "Use the codex-frontend-craft skill to design a retro-futuristic product page with bold typography."
 - "Create a pricing page UI with a strong visual concept and unique layout."
@@ -92,6 +120,8 @@ Eliminar aparência genérica.
 ## Links
 - Repositório: https://github.com/bugeeapps/codex-frontend-craft
 - Versão v2 (com comandos e anti-padrões): https://github.com/bugeeapps/codex-frontend-craft-v2
+
+Uso livre por Pedro Noronha.
 
 ## Parâmetros da skill (pt-BR)
 - name: `codex-frontend-craft` (nome da skill no Codex CLI)
