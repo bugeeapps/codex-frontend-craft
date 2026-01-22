@@ -60,6 +60,16 @@ git clone https://github.com/bugeeapps/codex-frontend-craft.git (Join-Path $skil
 2. Activate the skill by name `codex-frontend-craft` (e.g. in the prompt "Use the codex-frontend-craft skill to ...").
 3. Describe your UI requirements (page type, audience, stack, constraints).
 
+## Exemplos de prompts (pt-BR)
+- "Use a skill codex-frontend-craft para criar uma landing page de cafe com estilo editorial e tipografia expressiva."
+- "Crie um dashboard de vendas com layout assimetrico e micro-interacoes, mantendo o HTML simples."
+- "Melhore o visual de um formulario SaaS sem alterar a logica, priorizando Tailwind."
+
+## Example prompts (EN)
+- "Use the codex-frontend-craft skill to design a retro-futuristic product page with bold typography."
+- "Create a pricing page UI with a strong visual concept and unique layout."
+- "Improve the UI hierarchy of a React admin screen without changing business logic."
+
 ## Links
 - Repositorio: https://github.com/bugeeapps/codex-frontend-craft
 - Versao v2 (com comandos e anti-padroes): https://github.com/bugeeapps/codex-frontend-craft-v2
