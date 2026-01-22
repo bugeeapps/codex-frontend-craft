@@ -65,23 +65,23 @@ git clone https://github.com/bugeeapps/codex-frontend-craft.git (Join-Path $skil
 - "Crie um dashboard de vendas com layout assimetrico e micro-interacoes, mantendo o HTML simples."
 - "Melhore o visual de um formulario SaaS sem alterar a logica, priorizando Tailwind."
 
-Exemplo completo de invocacao:
+Exemplo completo de invocação:
 ```text
 Use codex-frontend-craft.
 
 Modo: craft:explore -> craft:proposal -> craft:build
 
 Contexto do produto:
-Pagina de dashboard financeiro para founders,
-usada a noite, ambiente escuro, foco em decisoes rapidas.
+Página de dashboard financeiro para founders,
+usada à noite, ambiente escuro, foco em decisões rápidas.
 
 Stack:
 React + Tailwind
-Nao mudar logica nem dados.
+Não mudar lógica nem dados.
 
 Objetivo:
-Refinar visual, tipografia, espacamento e hierarquia.
-Eliminar aparencia generica.
+Refinar visual, tipografia, espaçamento e hierarquia.
+Eliminar aparência genérica.
 ```
 
 ## Example prompts (EN)
